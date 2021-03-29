@@ -110,6 +110,32 @@
     margin: 2rem 0rem;
     color: #D9A5A0;
 }
+.titre_seance_explication{
+    font-size: 80px;
+    text-align: center;
+    text-decoration: underline;
+    margin: 2rem 0rem;
+    color: #D9A5A0;
+}
+.seance_explication_container{
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+    grid-template-rows: 1fr;
+}
+.contenu_seance_explication{
+    /* width: 75vw; */
+    grid-column: 2/3;
+    background: #D9A5A0;
+    margin: 2rem 0rem;
+    padding: 5rem 4rem;
+    font-weight: 500;
+}
+.contenu_seance_explication p {
+    padding: 1rem;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
 
 @keyframes test{
     0%{
@@ -131,6 +157,68 @@
     }
 }
 
-@media screen and (min-windth:1000px) and (max-width:1400px){
-
+@media screen and (min-width:1000px) and (max-width:1400px){
+    
+}
+@media screen and (min-width:600px) and (max-width:1000px){
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        /* height: 92vh; */
+        /* margin */
+        position: static;
+    }
+    .picture_me{
+        margin:3rem 0rem 0rem 0rem;
+    }
+    .description_me{
+        margin:0rem 0rem 3rem 0rem;
+    }
+    .picture_me img{
+        width:20rem;
+        height:20rem;
+        object-fit: cover;
+    }
+    .cercle_container{
+        height: auto;
+    }
+    .description_me {
+        width: 85vw;
+    }
+}
+@media screen and (min-width:350px) and (max-width:600px){
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        /* height: 92vh; */
+        /* margin */
+        position: static;
+    }
+    .picture_me{
+        margin:3rem 0rem 0rem 0rem;
+        /* width: 100vw; */
+    }
+    .description_me{
+        margin:0rem 0rem 3rem 0rem;
+    }
+    .description_me {
+        width: 85vw;
+    }
+    .picture_me img{
+        width:15rem;
+        height:15rem;
+        object-fit: cover;
+    }
+    .cercle_container{
+        height: auto;
+    }
+    .titre_seance_explication , .titre_type_hypnose{
+        font-size: 50px;
+    }
 }

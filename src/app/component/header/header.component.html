@@ -3,13 +3,20 @@
         <div class="logo">
             SSyncronime
         </div>
-        <div class="burger"></div>
-        <ul class="nav_item">
-            <li class="items "><a  [routerLink]="['/acceuil']" class="items_link active" href="">Acceuil</a></li>
-            <li class="items"><a [routerLink]="['/hypnose']" class="items_link">Hypnose</a></li>
-            <li class="items"><a [routerLink]="['/contact']" class="items_link">Contact</a></li>
-            <li class="items"><a [routerLink]="['/atelier']" class="items_link">Atelier</a></li>
-            <li class="items"><a [routerLink]="['/tarif']" class="items_link">Tarif</a></li>
-        </ul>
+        <div class="burger" >
+            <input type="checkbox" id="check"/>
+            <div class="checkbtn" for="#check" (click)="navbarBtn()">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+        <div class="nav-item">
+            <ul id="checkList">
+                <li class="items "><a  [routerLink]="['/acceuil']" class="items_link active" href="">Acceuil</a></li>
+                <li class="items"><a [routerLink]="['/hypnose']" class="items_link">Hypnose</a></li>
+                <li class="items"><a [routerLink]="['/contact']" class="items_link">Contact</a></li>
+                <li class="items"><a [routerLink]="['/atelier']" class="items_link">Atelier</a></li>
+                <li class="items"><a [routerLink]="['/tarif']" class="items_link">Tarif</a></li>
+            </ul>
+        </div>
     </nav>
 </header>

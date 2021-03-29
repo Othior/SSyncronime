@@ -24,12 +24,12 @@ export class DifferenteHypnoseComponent implements OnInit {
       content:''
     },
     {
-      image:'../../../assets/hypnose1.jpg',
-      name:'image hypnose perte de poids',
+      image:'https://cdn.pixabay.com/photo/2013/01/20/20/20/hypnosis-75615_960_720.jpg',
+      name:'auto hypnose',
       content:''
     },
     {
-      image:'../../../assets/thinking-5968108_1920.jpg',
+      image:'https://cdn.pixabay.com/photo/2019/03/10/08/32/hypnosis-4045657_960_720.jpg',
       name:'image hypnose confiance en soi',
       content:''
     }

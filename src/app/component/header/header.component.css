@@ -1,17 +1,31 @@
+
 nav{
+    /* position: fixed;
+    z-index: 100; */
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
     box-shadow: 0px 6px 5px 0px rgb(0 0 0 / 40%);
+    background-color: white;
+}
+#check{
+    display: none;
 }
 .burger{
     display: none;
+    position: absolute;
+    right: 5vw;
+    color: #D9A5A0;
+    font-size: 20px;
 }
 ul{
+    display: flex;
     margin: 0;
     padding: 0;
 }
+
 .logo{
     color: #D9A5A0;
     font-size: 40px;
@@ -19,20 +33,82 @@ ul{
     font-style: oblique;
     font-family: 'Dosis';
 }
-.nav_item{
+.nav-item ul{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     width: 45vw;
 }
-.nav_item li a{
+.nav-item ul li a{
     font-style: italic;
     font-weight: bold;
     font-size: 22px;
     /* color: #551A8B; */
 }
-.active{
+.activeNav{
     color: #D9A5A0;
 }
-.nav_item li a:hover{
+.nav_item ul li a:hover{
     color: #D9A5A0;
+}
+@media screen and (min-width:600px) and (max-width:1000px){
+    nav{
+        position: fixed;
+        z-index: 100;
+    }
+    .activeNav{
+        left: 0;
+    }
+    ul{
+        z-index: 1000;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        position: fixed;
+        border-top: 1px solid #D9A5A0;
+        background-color: white;
+        top: 82px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+        font-size: 25px;
+    }
+    #checkList li{
+        margin: 3rem 0rem;
+    }
+    .burger{
+        display: block;
+        margin-right: 1rem;
+    }
+}
+@media screen and (min-width:350px) and (max-width:600px){
+    
+    .activeNav{
+        left: 0;
+    }
+    ul{
+        z-index: 1000;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        position: fixed;
+        width: 100vw;
+        border-top: 1px solid #D9A5A0;
+        background-color: white;
+        top: 82px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+        font-size: 25px;
+    }
+    #checkList li{
+        margin: 3rem 0rem;
+    }
+    .burger{
+        display: block;
+        margin-right: 1rem;
+    }
 }
