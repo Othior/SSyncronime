@@ -28,10 +28,11 @@ ul{
     font-style: italic;
     font-weight: bold;
     font-size: 22px;
-}
-.nav_item li a:hover{
-    color: #D9A5A0;
+    /* color: #551A8B; */
 }
 .active{
+    color: #D9A5A0;
+}
+.nav_item li a:hover{
     color: #D9A5A0;
 }
