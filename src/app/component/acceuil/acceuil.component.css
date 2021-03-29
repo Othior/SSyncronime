@@ -109,6 +109,7 @@
     text-align: justify;
     margin: 10px 0rem;
     font-weight: 500;
+    font-style: oblique;
 }
 
 @keyframes test{
