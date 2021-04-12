@@ -1,0 +1,49 @@
+.container{
+    display: grid;
+    grid-template-columns: 10% 1fr 1fr 10%;
+    background-color: #D9A5A0;
+    color: white;
+    padding: 2rem 0rem;
+}
+.logo{
+    font-size: 40px;
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    grid-column: 3/4;
+    border-left: 3px solid white;
+    font-size: 20px;
+}
+.info p {
+    margin: 1rem 0rem;
+    padding: 0rem 0rem 0rem 1rem;
+}
+.logo p .fas::before {
+    padding: 0rem 0rem 0rem 1rem;
+}
+.logo p::before{
+    background-color: aqua;
+}
+
+@media screen and (min-width:1000px) and (max-width:1400px){
+    
+}
+@media screen and (min-width:600px) and (max-width:1000px){
+    
+}
+@media screen and (min-width:350px) and (max-width:600px){
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .info{
+        margin: 1rem 0rem 0rem 0rem;
+        border-top: 3px solid white;
+        border-left: none;
+    }
+}
