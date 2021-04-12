@@ -5,15 +5,19 @@
     flex-direction: column;
 }
 ::placeholder { 
-    color: white;
+    color: #d9a5a0;
     opacity: 1; 
   }
 .container{
     margin-top: 4rem;
 }
-h1{
-    /* margin-top: 2rem; */
-    padding: 2rem 0rem;
+
+.titre_contact{
+    font-size: 80px;
+    text-align: center;
+    text-decoration: underline;
+    margin: 2rem 0rem;
+    color: #D9A5A0;
 }
 form{
     margin: 2rem 0rem;
@@ -36,8 +40,8 @@ input{
     height: 3rem;
     padding: 2rem 2rem 2rem 2rem;
     outline: none;
-    background-color: #d9a5a0;
-    color: white;
+    background-color: #F7EFE4;
+    color: #d9a5a0;
     border: none;
     font-size: 25px;
     margin: 1rem 0rem;
@@ -46,8 +50,8 @@ textarea{
     margin: 1rem 0rem;
     resize:vertical;
     outline: none;
-    background-color: #d9a5a0;
-    color: white;
+    background-color: #F7EFE4;
+    color: #d9a5a0;
     font-size: 25px;
     border: none;
     width: 60vw;
