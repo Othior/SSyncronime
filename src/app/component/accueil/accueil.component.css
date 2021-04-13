@@ -188,6 +188,9 @@
     .description_me {
         width: 85vw;
     }
+    .container{
+        padding-top: 5rem;
+    }
 }
 @media screen and (min-width:350px) and (max-width:600px){
     .content{
@@ -237,5 +240,8 @@
         /* margin: 0; */
         /* padding: 0; */
         padding: 1rem 0rem;
+    }
+    .container{
+        padding-top: 5rem;
     }
 }
