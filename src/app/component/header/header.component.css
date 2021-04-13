@@ -59,13 +59,14 @@ ul{
     .activeNav{
         left: 0;
     }
+    .nav-item ul {
+        width: 100vw;
+        justify-content: flex-start;
+    }
     ul{
         z-index: 1000;
-        width: 100%;
         height: 100vh;
         flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
         position: fixed;
         border-top: 1px solid #D9A5A0;
         background-color: white;
@@ -76,7 +77,7 @@ ul{
         font-size: 25px;
     }
     #checkList li{
-        margin: 3rem 0rem;
+        margin: 2rem 0rem;
     }
     .burger{
         display: block;
@@ -91,6 +92,10 @@ ul{
     .activeNav{
         left: 0;
     }
+    .nav-item ul {
+        width: 100vw;
+        justify-content: flex-start;
+    }
     ul{
         z-index: 1000;
         height: 100vh;
@@ -98,7 +103,6 @@ ul{
         align-items: center;
         justify-content: flex-start;
         position: fixed;
-        width: 100vw;
         border-top: 1px solid #D9A5A0;
         background-color: white;
         top: 82px;
@@ -108,7 +112,7 @@ ul{
         font-size: 25px;
     }
     #checkList li{
-        margin: 0rem 0rem;
+        margin: 2rem 0rem;
     }
     .burger{
         display: block;
