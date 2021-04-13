@@ -12,8 +12,8 @@ const routes: Routes = [
   { path:'accueil' , component: AccueilComponent },
   { path:'hypnose' , component: HypnoseComponent },
   { path:'contact' , component: ContactComponent },
-  { path:'atelier' , component: AtelierComponent},
-  { path:'tarif' , component: TarifComponent},
+  { path:'ateliers' , component: AtelierComponent},
+  { path:'tarifs' , component: TarifComponent},
   { path:'**' , component: NotfoundComponent},
 ];
 

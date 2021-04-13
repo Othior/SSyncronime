@@ -1,1 +1,16 @@
-<p>tarif works!</p>
+<div class="container">
+    <h2 class="titre_tarif">Tarifs</h2>
+    <div class="block_tarif" >
+        <div class="tuile_tarif" *ngFor="let tarif of list_tarif">
+            <h3 class="titre_tuile_tarif">{{ tarif.titre }}</h3>
+            <div class="block_montant">
+                <p class="phrase_montant_tarif">à partir de </p>
+                <p class="nombre_montant_tarif">{{ tarif.montant }}€</p>
+            </div>
+            <div class="block_duree">
+                <p> {{ tarif.duree }} </p>
+            </div>
+        </div>
+    </div>
+    <a class="btn_rdv" [routerLink]="['/contact']">Prendre un rendez vous</a>
+</div>

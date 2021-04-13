@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ImageContent } from 'src/app/Model.Global/ImageContent';
 
 @Component({
   selector: 'app-differente-hypnose',
@@ -35,9 +36,4 @@ export class DifferenteHypnoseComponent implements OnInit {
     }
   ]
 
-}
-export interface ImageContent{
-  image:string,
-  name:string,
-  content:string
 }

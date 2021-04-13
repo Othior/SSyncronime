@@ -9,7 +9,7 @@
     opacity: 1; 
   }
 .container{
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
 }
 
 .titre_contact{
@@ -18,6 +18,8 @@
     text-decoration: underline;
     margin: 2rem 0rem;
     color: #D9A5A0;
+    font-style: italic;
+    font-weight: 500;
 }
 form{
     margin: 2rem 0rem;
