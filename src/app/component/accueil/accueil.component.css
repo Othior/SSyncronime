@@ -76,7 +76,8 @@
     object-fit: contain;
 }
 .picture_me h2{
-    color: #D9A5A0;
+    /* color: #D9A5A0; */ /* couleur principal */ 
+    color: #B88C88;
     font-size: 40px;
     width: 492px;
     text-align: center;
@@ -87,7 +88,10 @@
     font-weight: 500;
 }
 .description_me{
-    color: #D9A5A0;
+    /* color: #D9A5A0; */ /* couleur principal */ 
+    /* color: #EE7469; */
+    /* color: #6B342F; */
+    color: #B88C88;
     font-size: 22px;
     grid-column: 2/3;
     grid-row: 1/3;
