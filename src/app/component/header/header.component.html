@@ -10,12 +10,15 @@
             </div>
         </div>
         <div class="nav-item">
-            <ul id="checkList">
-                <li class="items "><a [routerLink]="['/accueil']" class="items_link active" href="">Accueil</a></li>
+            <!-- <ul id="checkList">
+                <li class="items"><a [routerLink]="['/accueil']" class="items_link active">Accueil</a></li>
                 <li class="items"><a [routerLink]="['/hypnose']" class="items_link">Hypnose</a></li>
                 <li class="items"><a [routerLink]="['/atelier']" class="items_link">Ateliers</a></li>
                 <li class="items"><a [routerLink]="['/contact']" class="items_link">Contact</a></li>
                 <li class="items"><a [routerLink]="['/tarifs']" class="items_link">Tarifs</a></li>
+            </ul> -->
+            <ul id="checkList">
+                <li class="items" *ngFor="let item of list_link"><a routerLink="{{ item.link }}" class="items_link">{{ item.title }}</a></li>
             </ul>
         </div>
     </nav>
