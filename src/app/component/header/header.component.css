@@ -90,6 +90,7 @@ ul{
     nav{
         position: fixed;
         z-index: 100;
+        width: 100vw;
     }
     .activeNav{
         left: 0;
