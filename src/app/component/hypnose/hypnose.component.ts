@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ServiceAllPageService } from 'src/app/service/service-all-page.service';
 
 @Component({
   selector: 'app-hypnose',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HypnoseComponent implements OnInit {
 
-  constructor() { }
+  constructor(private service:ServiceAllPageService) { }
 
   ngOnInit(): void {
+    this.service.reloadPage();
   }
 
 }

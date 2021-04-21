@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import { ServiceAllPageService } from 'src/app/service/service-all-page.service';
 
 @Component({
   selector: 'app-contact',
@@ -8,9 +9,10 @@ import { NgForm } from '@angular/forms';
 })
 export class ContactComponent implements OnInit {
 
-  constructor() { }
+  constructor(private service:ServiceAllPageService) { }
 
   ngOnInit(): void {
+    this.service.reloadPage();
   }
   contact(f: NgForm) {
 

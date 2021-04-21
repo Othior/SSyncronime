@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { ServiceAllPageService } from 'src/app/service/service-all-page.service';
 
 @Component({
   selector: 'app-acceuil',
@@ -7,9 +9,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AccueilComponent implements OnInit {
 
-  constructor() { }
+  constructor(private service:ServiceAllPageService) { }
 
   ngOnInit(): void {
+    this.service.reloadPage();
   }
 
 }

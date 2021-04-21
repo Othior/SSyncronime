@@ -32,16 +32,19 @@ export class HeaderComponent implements OnInit {
   ]
   constructor() { }
 
+  
+  
+
+  ngOnInit(): void {
+  }
   navbarBtn(){
     this.isClicked = !this.isClicked;
     let check = document.querySelector("#checkList").classList;
     this.isClicked ? check.add("activeNav") : check.remove("activeNav");
     console.log("check",check);
   }
-  
 
-  ngOnInit(): void {
-  }
+  
 
 }
 export interface Link{

@@ -48,16 +48,18 @@ ul{
 .activeNav{
     color: #D9A5A0;
 }
-.nav_item ul li a:hover{
+.items_link:hover , .activeNav{
     color: #D9A5A0;
 }
+
 @media screen and (min-width:600px) and (max-width:1000px){
     nav{
         position: fixed;
         z-index: 100;
+        width: 100vw;
     }
     .activeNav{
-        left: 0;
+        left: -10px;
     }
     .nav-item ul {
         width: 100vw;
@@ -71,7 +73,7 @@ ul{
         border-top: 1px solid #D9A5A0;
         background-color: white;
         top: 82px;
-        left: -100%;
+        left: -110%;
         text-align: center;
         transition: all 0.5s;
         font-size: 25px;

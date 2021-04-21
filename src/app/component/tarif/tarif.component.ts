@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Tarif } from 'src/app/Model.Global/tarif';
+import { ServiceAllPageService } from 'src/app/service/service-all-page.service';
 
 @Component({
   selector: 'app-tarif',
@@ -8,9 +9,10 @@ import { Tarif } from 'src/app/Model.Global/tarif';
 })
 export class TarifComponent implements OnInit {
 
-  constructor() { }
+  constructor(private service:ServiceAllPageService) { }
 
   ngOnInit(): void {
+    this.service.reloadPage();
   }
 
   public list_tarif : Array<Tarif> = [
