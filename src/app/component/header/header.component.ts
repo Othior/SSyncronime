@@ -8,16 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
 
   private isClicked: boolean = false;
-
-  constructor() { }
-
-  navbarBtn(){
-    this.isClicked = !this.isClicked;
-    let check = document.querySelector("#checkList").classList;
-    this.isClicked ? check.add("activeNav") : check.remove("activeNav");
-    console.log("check",check);
-  }
-  list_link: Array<Link> = [
+  public list_link: Array<Link> = [
     {
       title:"Accueil",
       link:"/accueil"
@@ -39,6 +30,15 @@ export class HeaderComponent implements OnInit {
       link:"/tarifs"
     },
   ]
+  constructor() { }
+
+  navbarBtn(){
+    this.isClicked = !this.isClicked;
+    let check = document.querySelector("#checkList").classList;
+    this.isClicked ? check.add("activeNav") : check.remove("activeNav");
+    console.log("check",check);
+  }
+  
 
   ngOnInit(): void {
   }
