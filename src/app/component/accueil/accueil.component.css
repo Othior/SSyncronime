@@ -111,7 +111,7 @@
     text-align: center;
     text-decoration: underline;
     margin: 2rem 0rem;
-    color: #D9A5A0;
+    color: white;
 }
 .hypnose_explication_container{
     display: grid;
@@ -124,7 +124,7 @@
     background: #D9A5A0;
     color: white;
     margin: 2rem 0rem;
-    padding: 5rem 4rem;
+    padding: 3rem 4rem;
     font-weight: 500;
     cursor:context-menu;
 }
