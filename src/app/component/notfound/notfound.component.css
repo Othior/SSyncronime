@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenu_perdu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem 0rem;
+    width: 75vw;
+    padding: 2rem;
+    background: #F7EFE4;
+}
+.titre_perdu{
+    color: #D9A5A0;
+    font-size: 80px;
+}
+.image_perdu{
+    width: 50vw;
+}
+.paragraphe_perdu{
+    font-size: 20px;
+    margin: 2rem;
+}
+.lien_perdu{
+    margin: 1rem 0rem;
+    transition: 0.8s;
+    background:  #F7EFE4;
+    border: 2px solid #D9A5A0;
+    color: #D9A5A0;
+    padding: 1rem;
+}
+.lien_perdu:hover{
+    transition: 0.8s;
+    background: #D9A5A0;
+    border: 2px solid #F7EFE4;
+    color: #F7EFE4;
+}
+
+@media screen and (min-width:600px) and (max-width:1000px){
+    .container{
+        padding-top: 5rem;
+    }
+}
+@media screen and (min-width:350px) and (max-width:600px){
+    .container{
+        padding-top: 5rem;
+    }
+}

@@ -93,7 +93,7 @@ ul{
         width: 100vw;
     }
     .activeNav{
-        left: 0;
+        left: -10px;
     }
     .nav-item ul {
         width: 100vw;
@@ -103,13 +103,11 @@ ul{
         z-index: 1000;
         height: 100vh;
         flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
         position: fixed;
         border-top: 1px solid #D9A5A0;
         background-color: white;
         top: 82px;
-        left: -100%;
+        left: -110%;
         text-align: center;
         transition: all 0.5s;
         font-size: 25px;
