@@ -122,15 +122,40 @@
     /* width: 95vw; */
     grid-column: 2/3;
     background: #D9A5A0;
+    color: white;
     margin: 2rem 0rem;
     padding: 5rem 4rem;
     font-weight: 500;
+    cursor:context-menu;
 }
 .contenu_hypnose_explication p {
     padding: 1rem;
     /* color: white; */
-    font-size: 20px;
+    font-size: 25px;
     text-align: justify;
+    font-weight: 600;
+}
+.contenu_hypnose_explication p:nth-child(3) {
+    text-align: center;
+}
+.contenu_hypnose_explication p:last-child {
+    text-align: center;
+    text-decoration: underline;
+}
+.therapie_hypnose{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}
+.therapie_hypnose ul{
+    padding: 0.5rem 2rem;
+}
+.therapie_hypnose ul li{
+    list-style-type: disc;
+    padding: 0.5rem 0rem;
+}
+.therapie_hypnose ul li::marker{
+    margin-left: 1rem;
 }
 
 .titre_type_hypnose{
