@@ -135,9 +135,6 @@
     text-align: justify;
     font-weight: 600;
 }
-.contenu_hypnose_explication p:nth-child(3) {
-    text-align: center;
-}
 .contenu_hypnose_explication p:last-child {
     text-align: center;
     text-decoration: underline;
