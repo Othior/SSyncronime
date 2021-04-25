@@ -140,7 +140,7 @@
 }
 .contenu_hypnose_explication p:last-child {
     text-align: center;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 .therapie_hypnose{
     font-weight: bold;
