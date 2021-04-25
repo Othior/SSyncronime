@@ -72,4 +72,7 @@
         width: 20rem;
         height: 20rem;
     }
+    .block_hypnose h2 , .block_hypnose:nth-of-type(2n) h2{
+        text-align: center;
+    }
 }
