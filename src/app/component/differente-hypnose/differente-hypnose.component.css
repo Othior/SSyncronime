@@ -22,6 +22,13 @@
     margin: 0rem 0rem 0rem 5rem;
     font-weight: 500;
 }
+.block_hypnose h2{
+    text-align: right;
+    margin: 2rem 0rem;
+}
+.block_hypnose:nth-of-type(2n) h2{
+    text-align: left;
+} 
 .block_hypnose:nth-of-type(2n){
     flex-direction: row-reverse;
 }
@@ -39,11 +46,12 @@
 @media screen and (min-width:600px) and (max-width:1000px){
     .block_hypnose ,.block_hypnose:nth-of-type(2n){
         flex-direction: column;
-        
     }
     .block_hypnose p , .block_hypnose:nth-of-type(2n) p{
         margin: 1rem 0;
-        
+    }
+    .block_hypnose h2 , .block_hypnose:nth-of-type(2n) h2{
+        text-align: center;
     }
 }
 @media screen and (min-width:350px) and (max-width:600px){
