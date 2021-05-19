@@ -311,7 +311,8 @@
         padding: 1rem 0rem;
     }
     .contenu_seance_explication{
-        padding: 2rem;word-wrap: normal;
+        padding: 2rem;
+        word-wrap: normal;
 
     }
     .contenu_seance_explication p {
