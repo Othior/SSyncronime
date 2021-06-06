@@ -1,3 +1,37 @@
+.msg_attente{
+    position: absolute;
+    top: 25vh;
+    /* bottom: 25vh; */
+    width: 50vw;
+    left: 25vw;
+    right: 25vw;
+    background-color: #D9A5A0;
+    z-index: 10000;
+    padding: 5rem;
+    color: #F7EFE4;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 500;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.msg_attente p{
+    margin: 1rem 0rem;
+}
+.msg_attente p:first-child{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.tel,.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.msg_attente p:nth-child(3),.msg_attente p:nth-child(4){
+    margin: 1.5rem 0rem;
+}
 .container,form{
     display: flex;
     justify-content: center;
@@ -10,6 +44,7 @@
   }
 .container{
     /* margin-top: 4rem; */
+    opacity: 0.7;
 }
 
 .titre_contact{
@@ -83,11 +118,23 @@ button:hover{
     .container{
         padding-top: 5rem;
     }
+    .msg_attente{
+        width: 85vw;
+        left: 7.5vw;
+        right: 7.5vw;
+        padding: 2rem;
+    }
     
 }
 @media screen and (min-width:350px) and (max-width:600px){
     .container{
         padding-top: 5rem;
+    }
+    .msg_attente{
+        width: 85vw;
+        left: 7.5vw;
+        right: 7.5vw;
+        padding: 2rem;
     }
 }
 

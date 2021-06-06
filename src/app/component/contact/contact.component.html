@@ -1,3 +1,15 @@
+<div class="msg_attente">
+    <p>Le formulaire de prise de rendez vous est en travaux </p>
+    <p>Vous pouvez prendre rendez vous par :</p>
+    <div class="tel">
+        <i class="fas fa-phone-alt"></i>
+        <p> +32 0499/34.92.79</p>
+    </div>
+    <div class="email">
+        <i class="fas fa-at"></i>
+        <p> Ssyncronime@hotmail.com</p>
+    </div>
+</div>
 <div class="container">
     <h2 class="titre_contact">Contact</h2>
     
@@ -8,6 +20,7 @@
                         placeholder="Votre Nom"
                         ngModel 
                         required
+                        disabled
                     />
                     <input 
                         type="email" 
@@ -15,6 +28,7 @@
                         placeholder="Votre Email"
                         ngModel 
                         required
+                        disabled
                     />
                     
                 <!-- <span>
@@ -26,6 +40,7 @@
                         placeholder="Objet Du Message"  
                         ngModel
                         required
+                        disabled
                     />
                     
                 <!-- <span>
@@ -37,12 +52,14 @@
                     ngModel
                     cols="30" 
                     rows="10"
+                    disabled
                 >
                 </textarea>
                 
                 <button 
                     class="btn-submit" 
                     type="submit"
+                    disabled
                 >
                     Contact me
                 </button>
