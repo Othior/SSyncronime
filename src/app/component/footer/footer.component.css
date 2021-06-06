@@ -27,7 +27,12 @@
 .logo p::before{
     background-color: aqua;
 }
-
+.nom_info , .tel_info, .ville_info , .email_info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 1rem;
+}
 @media screen and (min-width:1000px) and (max-width:1400px){
     
 }
