@@ -18,17 +18,17 @@ export class TarifComponent implements OnInit {
   public list_tarif : Array<Tarif> = [
     {
       titre: 'Hypnose Particulier',
-      montant: 50,
+      montant: 60,
       contenu: 'séance particulier'
     },
-    {
-      titre: 'Relaxation en groupe',
-      montant: 30,
-      contenu: 'minimum 5 personnes '
-    },
+    // {
+    //   titre: 'Relaxation en groupe',
+    //   montant: 30,
+    //   contenu: 'minimum 5 personnes '
+    // },
     {
       titre: 'Formation Auto-Hypnose',
-      montant: 40,
+      montant: 55,
       contenu: 'minimum 5 personnes'
     }
   ]
