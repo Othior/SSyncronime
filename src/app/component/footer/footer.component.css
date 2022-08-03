@@ -33,6 +33,14 @@
     align-items: center;
     margin-left: 1rem;
 }
+.email_info a{
+    margin-left: 1rem;
+    color: white;
+}
+.ville_info i , .ville_info p{
+    margin: 0rem 0;
+    margin-left: 0.2rem;
+}
 @media screen and (min-width:1000px) and (max-width:1400px){
     
 }
