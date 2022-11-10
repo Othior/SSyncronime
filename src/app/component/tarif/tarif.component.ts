@@ -18,7 +18,7 @@ export class TarifComponent implements OnInit {
   public list_tarif : Array<Tarif> = [
     {
       titre: 'Hypnose Particulier',
-      montant: 60,
+      montant: 50,
       contenu: 'séance particulier'
     },
     // {
